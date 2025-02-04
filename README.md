@@ -96,16 +96,55 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 - This section is orignally executed in Google Colab. 
 - The **Stereo Vision System** is tested on three datasets namely `Classroom`, `Storageroom` and `traproom`. The camera calibration parameters are stord in the `Dataset/<Yourdatasetname>` in `.txt` format. 
 - Parameters present in the `.txt` file:
-    | **Parameter**        | **Description**                                                                                                                                         |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **cam0, cam1**       | Camera matrices for the rectified views, in the form `[f 0 cx; 0 f cy; 0 0 1]`.                                                                         |
-| **f**                | Focal length in pixels.                                                                                                                                |
-| **cx, cy**           | Principal point coordinates.                                                                                                                           |
-| **doffs**            | X‐difference of principal points, `doffs = cx1 – cx0` (in this case always `0`).                                                                        |
-| **baseline**         | Camera baseline in millimeters.                                                                                                                        |
-| **width, height**    | Image size (in pixels).                                                                                                                                |
-| **ndisp**            | A conservative bound on the number of disparity levels; the stereo algorithm *may* utilize this bound and search from `d = 0` to `d = ndisp - 1`.       |
-| **vmin, vmax**       | A tight bound on the minimum and maximum disparities, used for color visualization; the stereo algorithm *may not* utilize this information.            |
+
+    <table>
+    <thead>
+        <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>cam0, cam1</td>
+        <td>Camera matrices for the rectified views, in the form [f 0 cx; 0 f cy; 0 0 1].</td>
+        </tr>
+        <tr>
+        <td>f</td>
+        <td>Focal length in pixels.</td>
+        </tr>
+        <tr>
+        <td>cx, cy</td>
+        <td>Principal point coordinates.</td>
+        </tr>
+        <tr>
+        <td>doffs</td>
+        <td>X‐difference of principal points, doffs = cx1 – cx0 (in this case always 0).</td>
+        </tr>
+        <tr>
+        <td>baseline</td>
+        <td>Camera baseline in millimeters.</td>
+        </tr>
+        <tr>
+        <td>width, height</td>
+        <td>Image size (in pixels).</td>
+        </tr>
+        <tr>
+        <td>ndisp</td>
+        <td>
+            A conservative bound on the number of disparity levels; the stereo algorithm
+            <em>may</em> utilize this bound and search from d = 0 to d = ndisp - 1.
+        </td>
+        </tr>
+        <tr>
+        <td>vmin, vmax</td>
+        <td>
+            A tight bound on the minimum and maximum disparities, used for color visualization;
+            the stereo algorithm <em>may not</em> utilize this information.
+        </td>
+        </tr>
+    </tbody>
+    </table>
 
 
 
