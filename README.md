@@ -173,12 +173,12 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
     <tr>
         <td>
         <figure>
-            <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="300">
+            <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
         </figure>
         </td>
         <td>
         <figure>
-            <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="300">
+            <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="350">
         </figure>
         </td>
     </tr>
