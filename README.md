@@ -71,7 +71,7 @@ Follow the instructions in the`project.ipynb` file and run the pipeline.
     - It measures the disparity between the observed image points (detected corners) and their corresponding projected image points (reprojected from known 3D world) using the calibrated camera parameters. This provides a quantative measure of how well the estimated cmaera parameters fit the observed image data.
     - A low reprojection error indicates a close alignment between the observed and projected image points, suggesting high calibration accuracy.
 
-    <img src="Results/Camera_Calibration/Reprojection_errors.png" alt="Banner" width="500" />
+        <img src="Results/Camera_Calibration/Reprojection_errors.png" alt="Banner" width="500" />
 
 2. **Overlayed Points on the Undistorted Image**
 
@@ -167,109 +167,109 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 1. **Classroom**
 
-- **Epipolar lines and feature points on the Rectified Image**
+    - **Epipolar lines and feature points on the Rectified Image**
 
-    <table>
-    <tr>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
-    </figure>
-    </td>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="350">
-    </figure>
-    </td>
-    </tr>
-    </table>
+        <table>
+        <tr>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
+        </figure>
+        </td>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="350">
+        </figure>
+        </td>
+        </tr>
+        </table>
 
-- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+    - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png" alt="Banner" width="500" />
 
-- **Disparity Map representing pixel-wise differences between the two images(color)**
+    - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png" alt="Banner" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(color)**
+    - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png" alt="Banner" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+    - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png" alt="Banner" width="500" />
 
 
 2. **Storageroom**
 
-- **Epipolar lines and feature points on the Rectified Image**
+    - **Epipolar lines and feature points on the Rectified Image**
 
-    <table>
-    <tr>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png" alt="Image 1" width="350">
-    </figure>
-    </td>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png" alt="Image 2" width="350">
-    </figure>
-    </td>
-    </tr>
-    </table>
+        <table>
+        <tr>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png" alt="Image 1" width="350">
+        </figure>
+        </td>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png" alt="Image 2" width="350">
+        </figure>
+        </td>
+        </tr>
+        </table>
 
-- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+    - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png" alt="Banner" width="500" />
 
-- **Disparity Map representing pixel-wise differences between the two images(color)**
+    - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png" alt="Banner" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(color)**
+    - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png" alt="Banner" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+    - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png" alt="Banner" width="500" />
 
 3. **Traproom**
 
-- **Epipolar lines and feature points on the Rectified Image**
+    - **Epipolar lines and feature points on the Rectified Image**
 
-    <table>
-    <tr>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/traproom/SVS_image1_epilines_traproom.png" alt="Image 1" width="350">
-    </figure>
-    </td>
-    <td>
-    <figure>
-    <img src="Results/Stereo_Vision_System/traproom/SVS_image2_epilines_traproom.png" alt="Image 2" width="350">
-    </figure>
-    </td>
-    </tr>
-    </table>
+        <table>
+        <tr>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/traproom/SVS_image1_epilines_traproom.png" alt="Image 1" width="350">
+        </figure>
+        </td>
+        <td>
+        <figure>
+        <img src="Results/Stereo_Vision_System/traproom/SVS_image2_epilines_traproom.png" alt="Image 2" width="350">
+        </figure>
+        </td>
+        </tr>
+        </table>
 
-- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+    - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png" alt="disparitymap" width="500" />
+        <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png" alt="disparitymap" width="500" />
 
-- **Disparity Map representing pixel-wise differences between the two images(color)**
+    - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png" alt="Banner" width="500" />
+        <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png" alt="Banner" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(color)**
+    - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png" alt="depthmap" width="500" />
+        <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png" alt="depthmap" width="500" />
 
-- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+    - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png" alt="depthmap" width="500" />
+        <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png" alt="depthmap" width="500" />
 
 ---
 
