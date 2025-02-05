@@ -1,6 +1,6 @@
 # Camera Calibration and Stereo Vision 
 
-![Banner](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png)
+<img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png" alt="Banner" width="500" />
 
 ## **Camera Calibration for a Single Camera**
 
@@ -17,7 +17,7 @@ This section is designed to calibrate a single camera using a calibration board,
     - Approximately **50 images** are captured using a calibration board (chessboard or circular pattern) from various angles and under different lighting conditions. This ensures robust calibration by providing varied perspectives.
     - **Note:** For this project, chessboard pattern was used for camera calibration. 
 
-    ![Checkboard](Results/Camera Calibration/checkboard.jpg)
+    <img src= "Results/Camera_Calibration/checkboard.jpg" alt="checkboard" width="500" />
 
 2. **Calibration Pipeline**
 
@@ -71,13 +71,13 @@ The reprojection error is calculated by comparing the projected image points wit
 - It measures the disparity between the observed image points (detected corners) and their corresponding projected image points (reprojected from known 3D world) using the calibrated camera parameters. This provides a quantative measure of how well the estimated cmaera parameters fit the observed image data.
 - A low reprojection error indicates a close alignment between the observed and projected image points, suggesting high calibration accuracy.
 
-    ![Reprojection_errors](Results/Camera_Calibration/Reprojection_errors.png)
+    <img src="Results/Camera_Calibration/Reprojection_errors.png" alt="Banner" width="500" />
 
 2. **Overlayed Points on the Undistorted Image**
 
 - Detected and reproejcted points overlayed on the image, where detected points are in red and reprojected points are in white. 
 
-    ![Overlayed-points](Results/Camera_Calibration/overlayed_points.png)
+    <img src="Results/Camera_Calibration/overlayed_points.png" alt="Banner" width="500" />
 
 ---
 
@@ -173,7 +173,7 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
     <tr>
     <td>
     <figure>
-        <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
+    <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
     </figure>
     </td>
     <td>
@@ -186,19 +186,20 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    ![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png)
+    <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png" alt="Banner" width="500" />
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    ![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png)
+    <img src="Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png" alt="Banner" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    ![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png)
+    <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png" alt="Banner" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    ![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png)
+    <img src="Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png" alt="Banner" width="500" />
+
 
 2. **Storageroom**
 
@@ -221,19 +222,19 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    ![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png)
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png" alt="Banner" width="500" />
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    ![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png)
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png" alt="Banner" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    ![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png)
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png" alt="Banner" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    ![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png)
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png" alt="Banner" width="500" />
 
 3. **Traproom**
 
@@ -258,18 +259,17 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
     <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png" alt="disparitymap" width="500" />
 
-
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-    ![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png)
+    <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png" alt="Banner" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-    ![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png)
+    <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png" alt="depthmap" width="500" />
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-    ![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png)
+    <img src="Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png" alt="depthmap" width="500" />
 
 ---
 
