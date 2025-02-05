@@ -169,48 +169,62 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 - **Epipolar lines and feature points on the Rectified Image**
 
-![Epilines] (Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png)
+    <table>
+  <tr>
+    <td>
+      <figure>
+        <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="300">
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="GIF 1" width="300">
+      </figure>
+    </td>
+  </tr>
+</table>
+![Epilines](Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png)
 ![Epilines](Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png)
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png)
+    ![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_grayscale_classroom.png)
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png)
+    ![Disparitymap](Results/Stereo_Vision_System/classroom/SVS_disparity_map_color_classroom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png)
+    ![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_color_classroom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png)
+    ![Depthmap](Results/Stereo_Vision_System/classroom/SVS_depth_map_depth_grayscale_classroom.png)
 
 2. **Storageroom**
 
 - **Epipolar lines and feature points on the Rectified Image**
 
-![epilines](Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png)
-![epilines](Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png)
+    ![epilines](Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png)
+    ![epilines](Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png)
 
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png)
+    ![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_grayscale_storageroom.png)
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png)
+    ![disparitymap](Results/Stereo_Vision_System/storageroom/SVS_disparity_map_color_storageroom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png)
+    ![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_color_storageroom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png)
+    ![depthmap](Results/Stereo_Vision_System/storageroom/SVS_depth_map_depth_grayscale_storageroom.png)
 
 3. **Traproom**
 
@@ -221,19 +235,19 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png)
+    ![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png)
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
-![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png)
+    ![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_color_traproom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(color)**
 
-![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png)
+    ![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_color_traproom.png)
 
 - **Depth Map representing Spatial Dimensions of the scene(grayscale)**
 
-![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png)
+    ![depthmap](Results/Stereo_Vision_System/traproom/SVS_depth_map_depth_grayscale_traproom.png)
 
 ---
 
