@@ -254,12 +254,10 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
     </tr>
     </table>
 
-![epilines](Results/Stereo_Vision_System/traproom/SVS_image1_epilines_traproom.png)
-![epilines](Results/Stereo_Vision_System/traproom/SVS_image2_epilines_traproom.png)
-
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
-    ![disparitymap](Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png)
+    <img src="Results/Stereo_Vision_System/traproom/SVS_disparity_map_grayscale_traproom.png" alt="disparitymap" width="500" />
+
 
 - **Disparity Map representing pixel-wise differences between the two images(color)**
 
