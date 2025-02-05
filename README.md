@@ -17,7 +17,7 @@ This section is designed to calibrate a single camera using a calibration board,
     - Approximately **50 images** are captured using a calibration board (chessboard or circular pattern) from various angles and under different lighting conditions. This ensures robust calibration by providing varied perspectives.
     - **Note:** For this project, chessboard pattern was used for camera calibration. 
 
-    <img src= "Results/Camera_Calibration/checkboard.jpg" alt="checkboard" width="500" />
+        <img src= "Results/Camera_Calibration/checkboard.jpg" alt="checkboard" width="500" />
 
 2. **Calibration Pipeline**
 
@@ -53,7 +53,7 @@ This section is designed to calibrate a single camera using a calibration board,
 
 Open the `.ipynb` file in Jupyter Notebook or oepn it in Google colab. Run each tab of **Camera Calibration Pipeline** sequentially. 
 
---
+---
 
 ### Usage
 
