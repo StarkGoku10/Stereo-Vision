@@ -1,10 +1,16 @@
 # Camera Calibration and Stereo Vision 
 
+![Banner](Results/Stereo Vision System/storageroom/SVS_disparity_map_color_storageroom.png)
+
+---
+
 ## **Camera Calibration for a Single Camera**
 
 ### Overview 
 
 This section is designed to calibrate a single camera using a calibration board, and it’s structured into four primary stages: image collection, calibration processing, reprojection error analysis, and result visualization. By leveraging established OpenCV functions, the pipeline efficiently computes the camera’s intrinsic parameters (such as focal length, principal point, and distortion coefficients) as well as its extrinsic parameters (rotation and translation vectors). The end goal is to undistort images and quantify calibration accuracy through reprojection error analysis while providing visual confirmation of the calibration quality.
+
+---
 
 ### Key Features 
 
@@ -13,7 +19,7 @@ This section is designed to calibrate a single camera using a calibration board,
     - Approximately **50 images** are captured using a calibration board (chessboard or circular pattern) from various angles and under different lighting conditions. This ensures robust calibration by providing varied perspectives.
     - **Note:** For this project, chessboard pattern was used for camera calibration. 
 
-    **insert image here**
+    ![Checkboard](Results/Camera Calibration/checkboard.jpg)
 
 2. **Calibration Pipeline**
 
@@ -43,13 +49,19 @@ This section is designed to calibrate a single camera using a calibration board,
         - Projecting the 3D object points back onto the image plane using the estimated parameters.
         - Calculating the reprojection error for each image (using the L2 norm) and computes the mean error.
 
+---
+
 ### Pre-requisites
 
 Open the `.ipynb` file in Jupyter Notebook or oepn it in Google colab. Run each tab of **Camera Calibration Pipeline** sequentially. 
 
+--
+
 ### Usage
 
 Follow the instructions in the`project.ipynb` file and run the pipeline. 
+
+---
 
 ### Results:
 
@@ -61,14 +73,15 @@ The reprojection error is calculated by comparing the projected image points wit
 - It measures the disparity between the observed image points (detected corners) and their corresponding projected image points (reprojected from known 3D world) using the calibrated camera parameters. This provides a quantative measure of how well the estimated cmaera parameters fit the observed image data.
 - A low reprojection error indicates a close alignment between the observed and projected image points, suggesting high calibration accuracy.
 
-**insert image**
+    ![Reprojection_errors](Results/Camera Calibration/Reprojection_errors.png)
 
 2. **Overlayed Points on the Undistorted Image**
 
-*insert image*
-
 - Detected and reproejcted points overlayed on the image, where detected points are in red and reprojected points are in white. 
 
+    ![Overlayed-points](Results/Camera Calibration/overlayed_points.png)
+
+---
 
 ## **Stereo Vision System**
 
@@ -83,6 +96,8 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 5. **Disparity Map Calculation:** Compute the disparity map representing the pixel-wise diffeences between the two images.
 6. **Depth Map Generation:** Convert the disparity maps to depth maps for 3D preception.
 
+---
+
 ### Features 
 
 - **Read Images:** Load the stereo image pairs and their calibration parameters.
@@ -90,6 +105,8 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 - **Visualize Epipolar Geomerty:**Drawing the Epipolar lines and feature points to visualzie geometric relationships.
 - **Stereo Rectification:** Aligning the images to ensure that corresponding feature points lie on the same epipolar line(horizontal line).
 - **Disparity and Depth Maps:** Computes and visualizes disparity and depth maps for preception of stereo vision. 
+
+---
 
 ### Usage
 
@@ -146,9 +163,77 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
     </tbody>
     </table>
 
+---
 
+### Results 
 
+1. **Classroom**
 
+- **Epipolar lines and feature points on the Rectified Image**
+
+![Epilines](Results/Stereo Vision System/classroom/SVS_image1_epilines_classroom.png) ![Epilines](Results/Stereo Vision System/classroom/SVS_image2_epilines_classroom.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+
+![Disparitymap](Results/GustavllAdolf.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(color)**
+
+![Disparitymap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(color)**
+
+![Depthmap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+
+![Depthmap](Results/GustavllAdolf.png)
+
+2. **Storageroom**
+
+- **Epipolar lines and feature points on the Rectified Image**
+
+![epilines](Results/GustavllAdolf.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+
+![disparitymap](Results/GustavllAdolf.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(color)**
+
+![disparitymap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(color)**
+
+![depthmap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+
+![depthmap](Results/GustavllAdolf.png)
+
+3. **Traproom**
+
+- **Epipolar lines and feature points on the Rectified Image**
+
+![epilines](Results/GustavllAdolf.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(grayscale)**
+
+![disparitymap](Results/GustavllAdolf.png)
+
+- **Disparity Map representing pixel-wise differences between the two images(color)**
+
+![disparitymap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(color)**
+
+![depthmap](Results/GustavllAdolf.png)
+
+- **Depth Map representing Spatial Dimensions of the scene(grayscale)**
+
+![depthmap](Results/GustavllAdolf.png)
+
+---
 
 
 
