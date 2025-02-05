@@ -170,21 +170,19 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 - **Epipolar lines and feature points on the Rectified Image**
 
     <table>
-  <tr>
-    <td>
-      <figure>
-        <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="300">
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="GIF 1" width="300">
-      </figure>
-    </td>
-  </tr>
-</table>
-![Epilines](Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png)
-![Epilines](Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png)
+    <tr>
+        <td>
+        <figure>
+            <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="300">
+        </figure>
+        </td>
+        <td>
+        <figure>
+            <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="300">
+        </figure>
+        </td>
+    </tr>
+    </table>
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
