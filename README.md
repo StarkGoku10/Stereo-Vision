@@ -171,16 +171,16 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
     <table>
     <tr>
-        <td>
-        <figure>
-            <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
-        </figure>
-        </td>
-        <td>
-        <figure>
-            <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="350">
-        </figure>
-        </td>
+    <td>
+    <figure>
+        <img src="Results/Stereo_Vision_System/classroom/SVS_image1_epilines_classroom.png" alt="Image 1" width="350">
+    </figure>
+    </td>
+    <td>
+    <figure>
+    <img src="Results/Stereo_Vision_System/classroom/SVS_image2_epilines_classroom.png" alt="Image 2" width="350">
+    </figure>
+    </td>
     </tr>
     </table>
 
@@ -204,9 +204,20 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 
 - **Epipolar lines and feature points on the Rectified Image**
 
-    ![epilines](Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png)
-    ![epilines](Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png)
-
+    <table>
+    <tr>
+    <td>
+    <figure>
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_image1_epilines_storageroom.png" alt="Image 1" width="350">
+    </figure>
+    </td>
+    <td>
+    <figure>
+    <img src="Results/Stereo_Vision_System/storageroom/SVS_image2_epilines_storageroom.png" alt="Image 2" width="350">
+    </figure>
+    </td>
+    </tr>
+    </table>
 
 - **Disparity Map representing pixel-wise differences between the two images(grayscale)**
 
@@ -227,6 +238,21 @@ This section is the implementation of the **Stereo Vision** Pipeline, enabling c
 3. **Traproom**
 
 - **Epipolar lines and feature points on the Rectified Image**
+
+    <table>
+    <tr>
+    <td>
+    <figure>
+    <img src="Results/Stereo_Vision_System/traproom/SVS_image1_epilines_traproom.png" alt="Image 1" width="350">
+    </figure>
+    </td>
+    <td>
+    <figure>
+    <img src="Results/Stereo_Vision_System/traproom/SVS_image2_epilines_traproom.png" alt="Image 2" width="350">
+    </figure>
+    </td>
+    </tr>
+    </table>
 
 ![epilines](Results/Stereo_Vision_System/traproom/SVS_image1_epilines_traproom.png)
 ![epilines](Results/Stereo_Vision_System/traproom/SVS_image2_epilines_traproom.png)
