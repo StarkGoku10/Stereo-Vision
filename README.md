@@ -65,19 +65,19 @@ Follow the instructions in the`project.ipynb` file and run the pipeline.
 
 1. **Reprojection Error**
 
-The reprojection error is calculated by comparing the projected image points with the detected image points using the **Euclidean norm (L2 norm)**.
+    The reprojection error is calculated by comparing the projected image points with the detected image points using the **Euclidean norm (L2 norm)**.
 
-- The reprojection error is a crucial metric in camera calibration that quantifies the accuracy of the estimated camera parameters. 
-- It measures the disparity between the observed image points (detected corners) and their corresponding projected image points (reprojected from known 3D world) using the calibrated camera parameters. This provides a quantative measure of how well the estimated cmaera parameters fit the observed image data.
-- A low reprojection error indicates a close alignment between the observed and projected image points, suggesting high calibration accuracy.
+    - The reprojection error is a crucial metric in camera calibration that quantifies the accuracy of the estimated camera parameters. 
+    - It measures the disparity between the observed image points (detected corners) and their corresponding projected image points (reprojected from known 3D world) using the calibrated camera parameters. This provides a quantative measure of how well the estimated cmaera parameters fit the observed image data.
+    - A low reprojection error indicates a close alignment between the observed and projected image points, suggesting high calibration accuracy.
 
     <img src="Results/Camera_Calibration/Reprojection_errors.png" alt="Banner" width="500" />
 
 2. **Overlayed Points on the Undistorted Image**
 
-- Detected and reproejcted points overlayed on the image, where detected points are in red and reprojected points are in white. 
+    - Detected and reproejcted points overlayed on the image, where detected points are in red and reprojected points are in white. 
 
-    <img src="Results/Camera_Calibration/overlayed_points.png" alt="Banner" width="500" />
+        <img src="Results/Camera_Calibration/overlayed_points.png" alt="Banner"/>
 
 ---
 
